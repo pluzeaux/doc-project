@@ -1,0 +1,483 @@
+    INFO: 2021-09-28 23:34:53,308:               log.py:   20: Logging to /Users/Philippe/Documents/BTS SIO/Sites/Python/docs/Python/mdpdf.log
+   DEBUG: 2021-09-28 23:34:53,308:               cli.py:  103: listes.md
+    INFO: 2021-09-28 23:34:53,308:         converter.py:   14: listes.md
+   DEBUG: 2021-09-28 23:34:53,316:      pdf_renderer.py:  470: printSegment: Listes
+   DEBUG: 2021-09-28 23:34:53,318:      pdf_renderer.py:  470: printSegment: Définition
+   DEBUG: 2021-09-28 23:34:53,319:      pdf_renderer.py:  470: printSegment: Une 
+   DEBUG: 2021-09-28 23:34:53,322:      pdf_renderer.py:  470: printSegment: liste
+   DEBUG: 2021-09-28 23:34:53,324:      pdf_renderer.py:  470: printSegment:  est une structure de données qui contient une série de valeurs.
+   DEBUG: 2021-09-28 23:34:53,324:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-09-28 23:34:53,324:      pdf_renderer.py:  470: printSegment: Python autorise la construction de liste
+   DEBUG: 2021-09-28 23:34:53,324:      pdf_renderer.py:  470: printSegment: contenant des valeurs de types différents (par exemple entier et chaîne de caractères),
+   DEBUG: 2021-09-28 23:34:53,324:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-09-28 23:34:53,325:      pdf_renderer.py:  470: printSegment: ce qui leur confère une grande
+   DEBUG: 2021-09-28 23:34:53,325:      pdf_renderer.py:  470: printSegment: flexibilité.
+   DEBUG: 2021-09-28 23:34:53,325:      pdf_renderer.py:  470: printSegment: Une liste est déclarée par une série de valeurs (n
+   DEBUG: 2021-09-28 23:34:53,325:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,325:      pdf_renderer.py:  470: printSegment: oubliez pas les guillemets, simples ou doubles, s
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment: il s
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment: agit de chaînes
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment: de caractères)
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-09-28 23:34:53,326:      pdf_renderer.py:  470: printSegment: séparées par des 
+   DEBUG: 2021-09-28 23:34:53,327:      pdf_renderer.py:  470: printSegment: virgules
+   DEBUG: 2021-09-28 23:34:53,327:      pdf_renderer.py:  470: printSegment: , et le tout encadré par des 
+   DEBUG: 2021-09-28 23:34:53,327:      pdf_renderer.py:  470: printSegment: crochets
+   DEBUG: 2021-09-28 23:34:53,327:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2021-09-28 23:34:53,327:      pdf_renderer.py:  470: printSegment: En voici quelques exemples :
+   DEBUG: 2021-09-28 23:34:53,328:      pdf_renderer.py:  470: printSegment: >>> animaux = ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,330:      pdf_renderer.py:  470: printSegment: >>> tailles = [5, 2.5, 1.75, 0.15]
+   DEBUG: 2021-09-28 23:34:53,330:      pdf_renderer.py:  470: printSegment: >>> mixte = ["girafe", 5, "souris", 0.15]
+   DEBUG: 2021-09-28 23:34:53,330:      pdf_renderer.py:  470: printSegment: >>> animaux
+   DEBUG: 2021-09-28 23:34:53,330:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre', 'singe', 'souris']
+   DEBUG: 2021-09-28 23:34:53,330:      pdf_renderer.py:  470: printSegment: >>> tailles
+   DEBUG: 2021-09-28 23:34:53,331:      pdf_renderer.py:  470: printSegment: [5, 2.5, 1.75, 0.15]
+   DEBUG: 2021-09-28 23:34:53,331:      pdf_renderer.py:  470: printSegment: >>> mixte
+   DEBUG: 2021-09-28 23:34:53,331:      pdf_renderer.py:  470: printSegment: ['girafe', 5, 'souris', 0.15]
+   DEBUG: 2021-09-28 23:34:53,331:      pdf_renderer.py:  470: printSegment: Lorsque l
+   DEBUG: 2021-09-28 23:34:53,331:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,332:      pdf_renderer.py:  470: printSegment: on affiche une liste, 
+   DEBUG: 2021-09-28 23:34:53,333:      pdf_renderer.py:  470: printSegment: Python
+   DEBUG: 2021-09-28 23:34:53,334:      pdf_renderer.py:  470: printSegment:  la restitue telle qu
+   DEBUG: 2021-09-28 23:34:53,335:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,335:      pdf_renderer.py:  470: printSegment: elle a été saisie.
+   DEBUG: 2021-09-28 23:34:53,335:      pdf_renderer.py:  470: printSegment: Utilisation
+   DEBUG: 2021-09-28 23:34:53,335:      pdf_renderer.py:  470: printSegment: Un des gros avantages d
+   DEBUG: 2021-09-28 23:34:53,335:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,335:      pdf_renderer.py:  470: printSegment: une liste est que vous pouvez appeler ses éléments par leur position.
+   DEBUG: 2021-09-28 23:34:53,336:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-09-28 23:34:53,336:      pdf_renderer.py:  470: printSegment: Ce numéro est appelé 
+   DEBUG: 2021-09-28 23:34:53,336:      pdf_renderer.py:  470: printSegment: indice
+   DEBUG: 2021-09-28 23:34:53,336:      pdf_renderer.py:  470: printSegment:  (ou index) de la liste.
+   DEBUG: 2021-09-28 23:34:53,336:      pdf_renderer.py:  470: printSegment: liste  : ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,337:      pdf_renderer.py:  470: printSegment: indice :        0        1        2         3
+   DEBUG: 2021-09-28 23:34:53,337:      pdf_renderer.py:  470: printSegment: Soyez très 
+   DEBUG: 2021-09-28 23:34:53,337:      pdf_renderer.py:  470: printSegment: attentifs
+   DEBUG: 2021-09-28 23:34:53,337:      pdf_renderer.py:  470: printSegment:  au fait que les indices d
+   DEBUG: 2021-09-28 23:34:53,337:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,337:      pdf_renderer.py:  470: printSegment: une liste de 
+   DEBUG: 2021-09-28 23:34:53,338:      pdf_renderer.py:  470: printSegment: n
+   DEBUG: 2021-09-28 23:34:53,338:      pdf_renderer.py:  470: printSegment:  éléments commence à 
+   DEBUG: 2021-09-28 23:34:53,338:      pdf_renderer.py:  470: printSegment: 0
+   DEBUG: 2021-09-28 23:34:53,338:      pdf_renderer.py:  470: printSegment:  et se termine à 
+   DEBUG: 2021-09-28 23:34:53,338:      pdf_renderer.py:  470: printSegment: n-1
+   DEBUG: 2021-09-28 23:34:53,339:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2021-09-28 23:34:53,339:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-09-28 23:34:53,339:      pdf_renderer.py:  470: printSegment: Voyez l
+   DEBUG: 2021-09-28 23:34:53,339:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,339:      pdf_renderer.py:  470: printSegment: exemple suivant :
+   DEBUG: 2021-09-28 23:34:53,339:      pdf_renderer.py:  470: printSegment: >>> animaux = ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,340:      pdf_renderer.py:  470: printSegment: >>> animaux[0]
+   DEBUG: 2021-09-28 23:34:53,340:      pdf_renderer.py:  470: printSegment: 'girafe'
+   DEBUG: 2021-09-28 23:34:53,340:      pdf_renderer.py:  470: printSegment: >>> animaux[1]
+   DEBUG: 2021-09-28 23:34:53,340:      pdf_renderer.py:  470: printSegment: 'tigre'
+   DEBUG: 2021-09-28 23:34:53,340:      pdf_renderer.py:  470: printSegment: >>> animaux[3]
+   DEBUG: 2021-09-28 23:34:53,341:      pdf_renderer.py:  470: printSegment: 'souris'
+   DEBUG: 2021-09-28 23:34:53,341:      pdf_renderer.py:  470: printSegment: Par conséquent, si on appelle l
+   DEBUG: 2021-09-28 23:34:53,341:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,341:      pdf_renderer.py:  470: printSegment: élément d
+   DEBUG: 2021-09-28 23:34:53,341:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,342:      pdf_renderer.py:  470: printSegment: indice 
+   DEBUG: 2021-09-28 23:34:53,342:      pdf_renderer.py:  470: printSegment: 4
+   DEBUG: 2021-09-28 23:34:53,342:      pdf_renderer.py:  470: printSegment:  de notre liste, Python renverra un message d
+   DEBUG: 2021-09-28 23:34:53,342:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,342:      pdf_renderer.py:  470: printSegment: erreur :
+   DEBUG: 2021-09-28 23:34:53,343:      pdf_renderer.py:  470: printSegment: >>> animaux[4]
+   DEBUG: 2021-09-28 23:34:53,343:      pdf_renderer.py:  470: printSegment: Traceback (innermost last):
+   DEBUG: 2021-09-28 23:34:53,343:      pdf_renderer.py:  470: printSegment:   File "<stdin>", line 1, in ?
+   DEBUG: 2021-09-28 23:34:53,343:      pdf_renderer.py:  470: printSegment: IndexError: list index out of range
+   DEBUG: 2021-09-28 23:34:53,343:      pdf_renderer.py:  470: printSegment: N
+   DEBUG: 2021-09-28 23:34:53,344:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,344:      pdf_renderer.py:  470: printSegment: oubliez pas ceci ou vous risquez d
+   DEBUG: 2021-09-28 23:34:53,344:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,344:      pdf_renderer.py:  470: printSegment: obtenir des bugs inattendus 
+   DEBUG: 2021-09-28 23:34:53,344:      pdf_renderer.py:  470: printSegment: !
+   DEBUG: 2021-09-28 23:34:53,345:      pdf_renderer.py:  470: printSegment: Opération sur les listes
+   DEBUG: 2021-09-28 23:34:53,345:      pdf_renderer.py:  470: printSegment: Tout comme les chaînes de caractères, les listes supportent l
+   DEBUG: 2021-09-28 23:34:53,345:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,346:      pdf_renderer.py:  470: printSegment: opérateur 
+   DEBUG: 2021-09-28 23:34:53,346:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2021-09-28 23:34:53,346:      pdf_renderer.py:  470: printSegment:  de concaténation, ainsi que l
+   DEBUG: 2021-09-28 23:34:53,346:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,347:      pdf_renderer.py:  470: printSegment: opérateur 
+   DEBUG: 2021-09-28 23:34:53,347:      pdf_renderer.py:  470: printSegment: *
+   DEBUG: 2021-09-28 23:34:53,347:      pdf_renderer.py:  470: printSegment: 
+   DEBUG: 2021-09-28 23:34:53,347:      pdf_renderer.py:  470: printSegment: pour la duplication :
+   DEBUG: 2021-09-28 23:34:53,347:      pdf_renderer.py:  470: printSegment: >>> ani1 = ["girafe", "tigre"]
+   DEBUG: 2021-09-28 23:34:53,348:      pdf_renderer.py:  470: printSegment: >>> ani2 = ["singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,348:      pdf_renderer.py:  470: printSegment: >>> ani1 + ani2
+   DEBUG: 2021-09-28 23:34:53,348:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre', 'singe', 'souris']
+   DEBUG: 2021-09-28 23:34:53,348:      pdf_renderer.py:  470: printSegment: >>> ani1 * 3
+   DEBUG: 2021-09-28 23:34:53,348:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre', 'girafe', 'tigre', 'girafe', 'tigre']
+   DEBUG: 2021-09-28 23:34:53,348:      pdf_renderer.py:  470: printSegment: L
+   DEBUG: 2021-09-28 23:34:53,349:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,349:      pdf_renderer.py:  470: printSegment: opérateur 
+   DEBUG: 2021-09-28 23:34:53,349:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2021-09-28 23:34:53,349:      pdf_renderer.py:  470: printSegment:  est très pratique pour concaténer deux listes.
+   DEBUG: 2021-09-28 23:34:53,349:      pdf_renderer.py:  470: printSegment: Vous pouvez aussi utiliser la méthode 
+   DEBUG: 2021-09-28 23:34:53,350:      pdf_renderer.py:  470: printSegment: .append()
+   DEBUG: 2021-09-28 23:34:53,350:      pdf_renderer.py:  470: printSegment:  lorsque vous souhaitez ajouter un seul élément à la fin d
+   DEBUG: 2021-09-28 23:34:53,350:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,350:      pdf_renderer.py:  470: printSegment: une
+   DEBUG: 2021-09-28 23:34:53,350:      pdf_renderer.py:  470: printSegment: liste.
+   DEBUG: 2021-09-28 23:34:53,350:      pdf_renderer.py:  470: printSegment: Dans l
+   DEBUG: 2021-09-28 23:34:53,351:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,351:      pdf_renderer.py:  470: printSegment: exemple suivant nous allons créer une liste vide :
+   DEBUG: 2021-09-28 23:34:53,351:      pdf_renderer.py:  470: printSegment: >>> a = []
+   DEBUG: 2021-09-28 23:34:53,351:      pdf_renderer.py:  470: printSegment: >>> a
+   DEBUG: 2021-09-28 23:34:53,351:      pdf_renderer.py:  470: printSegment: []
+   DEBUG: 2021-09-28 23:34:53,351:      pdf_renderer.py:  470: printSegment: puis lui ajouter deux éléments, l
+   DEBUG: 2021-09-28 23:34:53,352:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,352:      pdf_renderer.py:  470: printSegment: un après l
+   DEBUG: 2021-09-28 23:34:53,352:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,352:      pdf_renderer.py:  470: printSegment: autre, d
+   DEBUG: 2021-09-28 23:34:53,352:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,352:      pdf_renderer.py:  470: printSegment: abord avec la concaténation :
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: >>> a = a + [15]
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: >>> a
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: [15]
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: >>> a = a + [-5]
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: >>> a
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: [15, -5]
+   DEBUG: 2021-09-28 23:34:53,353:      pdf_renderer.py:  470: printSegment: puis avec la méthode 
+   DEBUG: 2021-09-28 23:34:53,354:      pdf_renderer.py:  470: printSegment: .append()
+   DEBUG: 2021-09-28 23:34:53,354:      pdf_renderer.py:  470: printSegment:  :
+   DEBUG: 2021-09-28 23:34:53,354:      pdf_renderer.py:  470: printSegment: >>> a.append(13)
+   DEBUG: 2021-09-28 23:34:53,354:      pdf_renderer.py:  470: printSegment: >>> a
+   DEBUG: 2021-09-28 23:34:53,354:      pdf_renderer.py:  470: printSegment: [15, -5, 13]
+   DEBUG: 2021-09-28 23:34:53,354:      pdf_renderer.py:  470: printSegment: >>> a.append(-3)
+   DEBUG: 2021-09-28 23:34:53,355:      pdf_renderer.py:  470: printSegment: >>> a
+   DEBUG: 2021-09-28 23:34:53,355:      pdf_renderer.py:  470: printSegment: [15, -5, 13, -3]
+   DEBUG: 2021-09-28 23:34:53,355:      pdf_renderer.py:  470: printSegment: Dans l
+   DEBUG: 2021-09-28 23:34:53,355:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,355:      pdf_renderer.py:  470: printSegment: exemple ci-dessus, nous ajoutons des éléments à une liste en utilisant l
+   DEBUG: 2021-09-28 23:34:53,355:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,356:      pdf_renderer.py:  470: printSegment: opérateur de concaténation 
+   DEBUG: 2021-09-28 23:34:53,356:      pdf_renderer.py:  470: printSegment: +
+   DEBUG: 2021-09-28 23:34:53,356:      pdf_renderer.py:  470: printSegment:  ou la
+   DEBUG: 2021-09-28 23:34:53,356:      pdf_renderer.py:  470: printSegment: méthode 
+   DEBUG: 2021-09-28 23:34:53,356:      pdf_renderer.py:  470: printSegment: .append()
+   DEBUG: 2021-09-28 23:34:53,357:      pdf_renderer.py:  470: printSegment: . Nous vous conseillons dans ce cas précis d
+   DEBUG: 2021-09-28 23:34:53,357:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,357:      pdf_renderer.py:  470: printSegment: utiliser la méthode 
+   DEBUG: 2021-09-28 23:34:53,357:      pdf_renderer.py:  470: printSegment: .append()
+   DEBUG: 2021-09-28 23:34:53,357:      pdf_renderer.py:  470: printSegment:  dont la syntaxe
+   DEBUG: 2021-09-28 23:34:53,358:      pdf_renderer.py:  470: printSegment: est plus élégante.
+   DEBUG: 2021-09-28 23:34:53,358:      pdf_renderer.py:  470: printSegment: Nous reverrons en détail la méthode 
+   DEBUG: 2021-09-28 23:34:53,358:      pdf_renderer.py:  470: printSegment: .append()
+   DEBUG: 2021-09-28 23:34:53,358:      pdf_renderer.py:  470: printSegment:  dans le chapitre 11 Plus sur les listes.
+   DEBUG: 2021-09-28 23:34:53,358:      pdf_renderer.py:  470: printSegment: Indiçage négatif
+   DEBUG: 2021-09-28 23:34:53,359:      pdf_renderer.py:  470: printSegment: La liste peut également être indexée avec des nombres négatifs selon le modèle suivant :
+   DEBUG: 2021-09-28 23:34:53,359:      pdf_renderer.py:  470: printSegment: liste          : ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,359:      pdf_renderer.py:  470: printSegment: indice positif :        0        1        2         3
+   DEBUG: 2021-09-28 23:34:53,359:      pdf_renderer.py:  470: printSegment: indice négatif :       -4       -3       -2        -1
+   DEBUG: 2021-09-28 23:34:53,360:      pdf_renderer.py:  470: printSegment: ou encore :
+   DEBUG: 2021-09-28 23:34:53,360:      pdf_renderer.py:  470: printSegment: liste          : ["A", "B", "C", "D", "E", "F"]
+   DEBUG: 2021-09-28 23:34:53,360:      pdf_renderer.py:  470: printSegment: indice positif :   0    1    2    3    4    5
+   DEBUG: 2021-09-28 23:34:53,360:      pdf_renderer.py:  470: printSegment: indice négatif :  -6   -5   -4   -3   -2   -1
+   DEBUG: 2021-09-28 23:34:53,361:      pdf_renderer.py:  470: printSegment: Les indices négatifs reviennent à compter à partir de la fin. Leur principal avantage est que vous pouvez accéder au
+   DEBUG: 2021-09-28 23:34:53,361:      pdf_renderer.py:  470: printSegment: dernier élément d
+   DEBUG: 2021-09-28 23:34:53,361:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,361:      pdf_renderer.py:  470: printSegment: une liste à l
+   DEBUG: 2021-09-28 23:34:53,362:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,362:      pdf_renderer.py:  470: printSegment: aide de l
+   DEBUG: 2021-09-28 23:34:53,362:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,362:      pdf_renderer.py:  470: printSegment: indice 
+   DEBUG: 2021-09-28 23:34:53,362:      pdf_renderer.py:  470: printSegment: -1
+   DEBUG: 2021-09-28 23:34:53,363:      pdf_renderer.py:  470: printSegment:  sans pour autant connaître la longueur de cette liste. L
+   DEBUG: 2021-09-28 23:34:53,363:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,364:      pdf_renderer.py:  470: printSegment: avant-dernier
+   DEBUG: 2021-09-28 23:34:53,364:      pdf_renderer.py:  470: printSegment: élément a lui l
+   DEBUG: 2021-09-28 23:34:53,364:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,364:      pdf_renderer.py:  470: printSegment: indice 
+   DEBUG: 2021-09-28 23:34:53,364:      pdf_renderer.py:  470: printSegment: -2
+   DEBUG: 2021-09-28 23:34:53,365:      pdf_renderer.py:  470: printSegment: , l
+   DEBUG: 2021-09-28 23:34:53,365:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,365:      pdf_renderer.py:  470: printSegment: avant-avant dernier l
+   DEBUG: 2021-09-28 23:34:53,365:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,365:      pdf_renderer.py:  470: printSegment: indice 
+   DEBUG: 2021-09-28 23:34:53,366:      pdf_renderer.py:  470: printSegment: -3
+   DEBUG: 2021-09-28 23:34:53,366:      pdf_renderer.py:  470: printSegment: , etc.
+   DEBUG: 2021-09-28 23:34:53,366:      pdf_renderer.py:  470: printSegment: >>> animaux = ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,366:      pdf_renderer.py:  470: printSegment: >>> animaux[-1]
+   DEBUG: 2021-09-28 23:34:53,367:      pdf_renderer.py:  470: printSegment: 'souris'
+   DEBUG: 2021-09-28 23:34:53,367:      pdf_renderer.py:  470: printSegment: >>> animaux[-2]
+   DEBUG: 2021-09-28 23:34:53,367:      pdf_renderer.py:  470: printSegment: 'singe'
+   DEBUG: 2021-09-28 23:34:53,367:      pdf_renderer.py:  470: printSegment: Pour accéder au premier élément de la liste avec un indice négatif, il faut par contre connaître le bon indice :
+   DEBUG: 2021-09-28 23:34:53,367:      pdf_renderer.py:  470: printSegment: >>> animaux[-4]
+   DEBUG: 2021-09-28 23:34:53,368:      pdf_renderer.py:  470: printSegment: 'girafe'
+   DEBUG: 2021-09-28 23:34:53,368:      pdf_renderer.py:  470: printSegment: Dans ce cas, on utilise plutôt 
+   DEBUG: 2021-09-28 23:34:53,368:      pdf_renderer.py:  470: printSegment: animaux[0]
+   DEBUG: 2021-09-28 23:34:53,368:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2021-09-28 23:34:53,368:      pdf_renderer.py:  470: printSegment: Tranches
+   DEBUG: 2021-09-28 23:34:53,369:      pdf_renderer.py:  470: printSegment: Un autre avantage des listes est la possibilité de sélectionner une partie d
+   DEBUG: 2021-09-28 23:34:53,369:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,369:      pdf_renderer.py:  470: printSegment: une liste en utilisant un indiçage construit
+   DEBUG: 2021-09-28 23:34:53,369:      pdf_renderer.py:  470: printSegment: sur le modèle 
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment: [m:n+1]
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment:  pour récupérer tous les éléments, du émième au énième (de l
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment: élément 
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment: m
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment:  inclus à l
+   DEBUG: 2021-09-28 23:34:53,370:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,371:      pdf_renderer.py:  470: printSegment: élément 
+   DEBUG: 2021-09-28 23:34:53,371:      pdf_renderer.py:  470: printSegment: n+1
+   DEBUG: 2021-09-28 23:34:53,371:      pdf_renderer.py:  470: printSegment:  exclu). On dit alors qu
+   DEBUG: 2021-09-28 23:34:53,371:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,371:      pdf_renderer.py:  470: printSegment: on récupère une 
+   DEBUG: 2021-09-28 23:34:53,371:      pdf_renderer.py:  470: printSegment: tranche
+   DEBUG: 2021-09-28 23:34:53,372:      pdf_renderer.py:  470: printSegment:  de la liste, par exemple :
+   DEBUG: 2021-09-28 23:34:53,372:      pdf_renderer.py:  470: printSegment: >>> animaux = ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,372:      pdf_renderer.py:  470: printSegment: >>> animaux[0:2]
+   DEBUG: 2021-09-28 23:34:53,372:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre']
+   DEBUG: 2021-09-28 23:34:53,373:      pdf_renderer.py:  470: printSegment: >>> animaux[0:3]
+   DEBUG: 2021-09-28 23:34:53,373:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre', 'singe']
+   DEBUG: 2021-09-28 23:34:53,373:      pdf_renderer.py:  470: printSegment: >>> animaux[0:]
+   DEBUG: 2021-09-28 23:34:53,373:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre', 'singe', 'souris']
+   DEBUG: 2021-09-28 23:34:53,373:      pdf_renderer.py:  470: printSegment: >>> animaux[:]
+   DEBUG: 2021-09-28 23:34:53,373:      pdf_renderer.py:  470: printSegment: ['girafe', 'tigre', 'singe', 'souris']
+   DEBUG: 2021-09-28 23:34:53,374:      pdf_renderer.py:  470: printSegment: >>> animaux[1:]
+   DEBUG: 2021-09-28 23:34:53,374:      pdf_renderer.py:  470: printSegment: ['tigre', 'singe', 'souris']
+   DEBUG: 2021-09-28 23:34:53,374:      pdf_renderer.py:  470: printSegment: >>> animaux[1:-1]
+   DEBUG: 2021-09-28 23:34:53,374:      pdf_renderer.py:  470: printSegment: ['tigre', 'singe']
+   DEBUG: 2021-09-28 23:34:53,374:      pdf_renderer.py:  470: printSegment: Notez que lorsqu
+   DEBUG: 2021-09-28 23:34:53,375:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,375:      pdf_renderer.py:  470: printSegment: aucun indice n
+   DEBUG: 2021-09-28 23:34:53,375:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,375:      pdf_renderer.py:  470: printSegment: est indiqué à gauche ou à droite du symbole deux-points, Python prend par défaut
+   DEBUG: 2021-09-28 23:34:53,375:      pdf_renderer.py:  470: printSegment: tous les éléments depuis le début ou tous les éléments jusqu
+   DEBUG: 2021-09-28 23:34:53,375:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,376:      pdf_renderer.py:  470: printSegment: à la fin respectivement.
+   DEBUG: 2021-09-28 23:34:53,376:      pdf_renderer.py:  470: printSegment: On peut aussi préciser le pas en ajoutant un symbole deux-points supplémentaire et en indiquant le pas par un entier.
+   DEBUG: 2021-09-28 23:34:53,376:      pdf_renderer.py:  470: printSegment: >>> animaux = ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,376:      pdf_renderer.py:  470: printSegment: >>> animaux[0:3:2]
+   DEBUG: 2021-09-28 23:34:53,376:      pdf_renderer.py:  470: printSegment: ['girafe', 'singe']
+   DEBUG: 2021-09-28 23:34:53,376:      pdf_renderer.py:  470: printSegment: >>> x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   DEBUG: 2021-09-28 23:34:53,377:      pdf_renderer.py:  470: printSegment: >>> x
+   DEBUG: 2021-09-28 23:34:53,377:      pdf_renderer.py:  470: printSegment: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   DEBUG: 2021-09-28 23:34:53,377:      pdf_renderer.py:  470: printSegment: >>> x[::1]
+   DEBUG: 2021-09-28 23:34:53,377:      pdf_renderer.py:  470: printSegment: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   DEBUG: 2021-09-28 23:34:53,377:      pdf_renderer.py:  470: printSegment: >>> x[::2]
+   DEBUG: 2021-09-28 23:34:53,377:      pdf_renderer.py:  470: printSegment: [0, 2, 4, 6, 8]
+   DEBUG: 2021-09-28 23:34:53,378:      pdf_renderer.py:  470: printSegment: >>> x[::3]
+   DEBUG: 2021-09-28 23:34:53,378:      pdf_renderer.py:  470: printSegment: [0, 3, 6, 9]
+   DEBUG: 2021-09-28 23:34:53,378:      pdf_renderer.py:  470: printSegment: >>> x[1:6:3]
+   DEBUG: 2021-09-28 23:34:53,378:      pdf_renderer.py:  470: printSegment: [1, 4]
+   DEBUG: 2021-09-28 23:34:53,379:      pdf_renderer.py:  470: printSegment: Finalement, on se rend compte que l
+   DEBUG: 2021-09-28 23:34:53,379:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,379:      pdf_renderer.py:  470: printSegment: accès au contenu d
+   DEBUG: 2021-09-28 23:34:53,379:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,379:      pdf_renderer.py:  470: printSegment: une liste fonctionne sur le modèle 
+   DEBUG: 2021-09-28 23:34:53,380:      pdf_renderer.py:  470: printSegment: liste[début:fin:pas]
+   DEBUG: 2021-09-28 23:34:53,380:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2021-09-28 23:34:53,380:      pdf_renderer.py:  470: printSegment: Fonction 
+   DEBUG: 2021-09-28 23:34:53,380:      pdf_renderer.py:  470: printSegment: len()
+   DEBUG: 2021-09-28 23:34:53,381:      pdf_renderer.py:  470: printSegment: L
+   DEBUG: 2021-09-28 23:34:53,381:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,381:      pdf_renderer.py:  470: printSegment: instruction 
+   DEBUG: 2021-09-28 23:34:53,381:      pdf_renderer.py:  470: printSegment: len()
+   DEBUG: 2021-09-28 23:34:53,381:      pdf_renderer.py:  470: printSegment:  vous permet de connaître la longueur d
+   DEBUG: 2021-09-28 23:34:53,382:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,382:      pdf_renderer.py:  470: printSegment: une liste, c
+   DEBUG: 2021-09-28 23:34:53,382:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,382:      pdf_renderer.py:  470: printSegment: est-à-dire le nombre d
+   DEBUG: 2021-09-28 23:34:53,382:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,383:      pdf_renderer.py:  470: printSegment: éléments que contient
+   DEBUG: 2021-09-28 23:34:53,383:      pdf_renderer.py:  470: printSegment: la liste. Voici un exemple d
+   DEBUG: 2021-09-28 23:34:53,383:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,383:      pdf_renderer.py:  470: printSegment: utilisation :
+   DEBUG: 2021-09-28 23:34:53,383:      pdf_renderer.py:  470: printSegment: >>> animaux = ["girafe", "tigre", "singe", "souris"]
+   DEBUG: 2021-09-28 23:34:53,384:      pdf_renderer.py:  470: printSegment: >>> len(animaux)
+   DEBUG: 2021-09-28 23:34:53,384:      pdf_renderer.py:  470: printSegment: 4
+   DEBUG: 2021-09-28 23:34:53,384:      pdf_renderer.py:  470: printSegment: >>> len([1, 2, 3, 4, 5, 6, 7, 8])
+   DEBUG: 2021-09-28 23:34:53,384:      pdf_renderer.py:  470: printSegment: 8
+   DEBUG: 2021-09-28 23:34:53,384:      pdf_renderer.py:  470: printSegment: Les fonctions 
+   DEBUG: 2021-09-28 23:34:53,384:      pdf_renderer.py:  470: printSegment: range()
+   DEBUG: 2021-09-28 23:34:53,385:      pdf_renderer.py:  470: printSegment:  et 
+   DEBUG: 2021-09-28 23:34:53,385:      pdf_renderer.py:  470: printSegment: list()
+   DEBUG: 2021-09-28 23:34:53,385:      pdf_renderer.py:  470: printSegment: L
+   DEBUG: 2021-09-28 23:34:53,385:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,385:      pdf_renderer.py:  470: printSegment: instruction 
+   DEBUG: 2021-09-28 23:34:53,385:      pdf_renderer.py:  470: printSegment: range()
+   DEBUG: 2021-09-28 23:34:53,386:      pdf_renderer.py:  470: printSegment:  est une fonction spéciale en Python qui génère des nombres entiers compris dans un
+   DEBUG: 2021-09-28 23:34:53,386:      pdf_renderer.py:  470: printSegment: intervalle. Lorsqu
+   DEBUG: 2021-09-28 23:34:53,386:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,386:      pdf_renderer.py:  470: printSegment: elle est utilisée en combinaison avec la fonction 
+   DEBUG: 2021-09-28 23:34:53,386:      pdf_renderer.py:  470: printSegment: list()
+   DEBUG: 2021-09-28 23:34:53,386:      pdf_renderer.py:  470: printSegment: , on obtient une liste d
+   DEBUG: 2021-09-28 23:34:53,387:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,387:      pdf_renderer.py:  470: printSegment: entiers. Par
+   DEBUG: 2021-09-28 23:34:53,387:      pdf_renderer.py:  470: printSegment: exemple :
+   DEBUG: 2021-09-28 23:34:53,387:      pdf_renderer.py:  470: printSegment: >>> list(range(10))
+   DEBUG: 2021-09-28 23:34:53,387:      pdf_renderer.py:  470: printSegment: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   DEBUG: 2021-09-28 23:34:53,387:      pdf_renderer.py:  470: printSegment: La commande 
+   DEBUG: 2021-09-28 23:34:53,388:      pdf_renderer.py:  470: printSegment: list(range(10))
+   DEBUG: 2021-09-28 23:34:53,388:      pdf_renderer.py:  470: printSegment:  a généré une liste contenant tous les nombres entiers de 
+   DEBUG: 2021-09-28 23:34:53,388:      pdf_renderer.py:  470: printSegment: 0
+   DEBUG: 2021-09-28 23:34:53,388:      pdf_renderer.py:  470: printSegment:  inclus à 
+   DEBUG: 2021-09-28 23:34:53,388:      pdf_renderer.py:  470: printSegment: 10
+   DEBUG: 2021-09-28 23:34:53,388:      pdf_renderer.py:  470: printSegment:  
+   DEBUG: 2021-09-28 23:34:53,389:      pdf_renderer.py:  470: printSegment: exclu
+   DEBUG: 2021-09-28 23:34:53,389:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2021-09-28 23:34:53,389:      pdf_renderer.py:  470: printSegment: Nous verrons l
+   DEBUG: 2021-09-28 23:34:53,390:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,390:      pdf_renderer.py:  470: printSegment: utilisation de la fonction 
+   DEBUG: 2021-09-28 23:34:53,390:      pdf_renderer.py:  470: printSegment: range()
+   DEBUG: 2021-09-28 23:34:53,390:      pdf_renderer.py:  470: printSegment:  toute seule dans le chapitre 5 Boucles et comparaisons.
+   DEBUG: 2021-09-28 23:34:53,390:      pdf_renderer.py:  470: printSegment: Dans l
+   DEBUG: 2021-09-28 23:34:53,390:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,391:      pdf_renderer.py:  470: printSegment: exemple ci-dessus, la fonction 
+   DEBUG: 2021-09-28 23:34:53,391:      pdf_renderer.py:  470: printSegment: range()
+   DEBUG: 2021-09-28 23:34:53,391:      pdf_renderer.py:  470: printSegment:  a pris un argument, mais elle peut également prendre deux ou trois
+   DEBUG: 2021-09-28 23:34:53,391:      pdf_renderer.py:  470: printSegment: arguments, voyez plutôt :
+   DEBUG: 2021-09-28 23:34:53,391:      pdf_renderer.py:  470: printSegment: >>> list(range(0, 5))
+   DEBUG: 2021-09-28 23:34:53,391:      pdf_renderer.py:  470: printSegment: [0, 1, 2, 3, 4]
+   DEBUG: 2021-09-28 23:34:53,392:      pdf_renderer.py:  470: printSegment: >>> list(range(15, 20))
+   DEBUG: 2021-09-28 23:34:53,392:      pdf_renderer.py:  470: printSegment: [15, 16, 17, 18, 19]
+   DEBUG: 2021-09-28 23:34:53,392:      pdf_renderer.py:  470: printSegment: >>> list(range(0, 1000, 200))
+   DEBUG: 2021-09-28 23:34:53,392:      pdf_renderer.py:  470: printSegment: [0, 200, 400, 600, 800]
+   DEBUG: 2021-09-28 23:34:53,392:      pdf_renderer.py:  470: printSegment: >>> list(range(2, -2, -1))
+   DEBUG: 2021-09-28 23:34:53,392:      pdf_renderer.py:  470: printSegment: [2, 1, 0, -1]
+   DEBUG: 2021-09-28 23:34:53,393:      pdf_renderer.py:  470: printSegment: L
+   DEBUG: 2021-09-28 23:34:53,393:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,393:      pdf_renderer.py:  470: printSegment: instruction 
+   DEBUG: 2021-09-28 23:34:53,393:      pdf_renderer.py:  470: printSegment: range()
+   DEBUG: 2021-09-28 23:34:53,393:      pdf_renderer.py:  470: printSegment:  fonctionne sur le modèle 
+   DEBUG: 2021-09-28 23:34:53,393:      pdf_renderer.py:  470: printSegment: range([début,] fin[, pas])
+   DEBUG: 2021-09-28 23:34:53,394:      pdf_renderer.py:  470: printSegment: . Les arguments entre
+   DEBUG: 2021-09-28 23:34:53,394:      pdf_renderer.py:  470: printSegment: crochets sont optionnels. Pour obtenir une liste de nombres entiers, il faut l
+   DEBUG: 2021-09-28 23:34:53,394:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,394:      pdf_renderer.py:  470: printSegment: utiliser systématiquement avec la
+   DEBUG: 2021-09-28 23:34:53,394:      pdf_renderer.py:  470: printSegment: fonction 
+   DEBUG: 2021-09-28 23:34:53,394:      pdf_renderer.py:  470: printSegment: list()
+   DEBUG: 2021-09-28 23:34:53,395:      pdf_renderer.py:  470: printSegment: .
+   DEBUG: 2021-09-28 23:34:53,395:      pdf_renderer.py:  470: printSegment: Enfin, prenez garde aux arguments optionnels par défaut (
+   DEBUG: 2021-09-28 23:34:53,395:      pdf_renderer.py:  470: printSegment: 0
+   DEBUG: 2021-09-28 23:34:53,395:      pdf_renderer.py:  470: printSegment:  pour début et 
+   DEBUG: 2021-09-28 23:34:53,395:      pdf_renderer.py:  470: printSegment: 1
+   DEBUG: 2021-09-28 23:34:53,395:      pdf_renderer.py:  470: printSegment:  pour pas) :
+   DEBUG: 2021-09-28 23:34:53,396:      pdf_renderer.py:  470: printSegment: >>> list(range(10,0))
+   DEBUG: 2021-09-28 23:34:53,396:      pdf_renderer.py:  470: printSegment: []
+   DEBUG: 2021-09-28 23:34:53,396:      pdf_renderer.py:  470: printSegment: Ici la liste est vide car Python a pris la valeur du pas par défaut qui est de 
+   DEBUG: 2021-09-28 23:34:53,396:      pdf_renderer.py:  470: printSegment: 1
+   DEBUG: 2021-09-28 23:34:53,396:      pdf_renderer.py:  470: printSegment: . Ainsi, si on commence à 
+   DEBUG: 2021-09-28 23:34:53,397:      pdf_renderer.py:  470: printSegment: 10
+   DEBUG: 2021-09-28 23:34:53,397:      pdf_renderer.py:  470: printSegment:  et qu
+   DEBUG: 2021-09-28 23:34:53,397:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,397:      pdf_renderer.py:  470: printSegment: on
+   DEBUG: 2021-09-28 23:34:53,397:      pdf_renderer.py:  470: printSegment: avance par pas de 
+   DEBUG: 2021-09-28 23:34:53,397:      pdf_renderer.py:  470: printSegment: 1
+   DEBUG: 2021-09-28 23:34:53,398:      pdf_renderer.py:  470: printSegment: , on ne pourra jamais atteindre 
+   DEBUG: 2021-09-28 23:34:53,398:      pdf_renderer.py:  470: printSegment: 0
+   DEBUG: 2021-09-28 23:34:53,398:      pdf_renderer.py:  470: printSegment: . Python génère ainsi une liste vide. Pour éviter ça, il faudrait,
+   DEBUG: 2021-09-28 23:34:53,398:      pdf_renderer.py:  470: printSegment: par exemple, préciser un pas de 
+   DEBUG: 2021-09-28 23:34:53,398:      pdf_renderer.py:  470: printSegment: -1
+   DEBUG: 2021-09-28 23:34:53,398:      pdf_renderer.py:  470: printSegment:  pour obtenir une liste d
+   DEBUG: 2021-09-28 23:34:53,399:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,399:      pdf_renderer.py:  470: printSegment: entiers décroissants :
+   DEBUG: 2021-09-28 23:34:53,399:      pdf_renderer.py:  470: printSegment: >>> list(range(10,0,-1))
+   DEBUG: 2021-09-28 23:34:53,399:      pdf_renderer.py:  470: printSegment: [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+   DEBUG: 2021-09-28 23:34:53,400:      pdf_renderer.py:  470: printSegment: Listes de listes
+   DEBUG: 2021-09-28 23:34:53,400:      pdf_renderer.py:  470: printSegment: Pour finir, sachez qu
+   DEBUG: 2021-09-28 23:34:53,400:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,401:      pdf_renderer.py:  470: printSegment: il est tout à fait possible de construire des listes de listes. Cette fonctionnalité peut parfois être
+   DEBUG: 2021-09-28 23:34:53,401:      pdf_renderer.py:  470: printSegment: très pratique. Par exemple :
+   DEBUG: 2021-09-28 23:34:53,401:      pdf_renderer.py:  470: printSegment: >>> enclos1 = ["girafe", 4]
+   DEBUG: 2021-09-28 23:34:53,401:      pdf_renderer.py:  470: printSegment: >>> enclos2 = ["tigre", 2]
+   DEBUG: 2021-09-28 23:34:53,402:      pdf_renderer.py:  470: printSegment: >>> enclos3 = ["singe", 5]
+   DEBUG: 2021-09-28 23:34:53,402:      pdf_renderer.py:  470: printSegment: >>> zoo = [enclos1, enclos2, enclos3]
+   DEBUG: 2021-09-28 23:34:53,402:      pdf_renderer.py:  470: printSegment: >>> zoo
+   DEBUG: 2021-09-28 23:34:53,402:      pdf_renderer.py:  470: printSegment: [['girafe', 4], ['tigre', 2], ['singe', 5]]
+   DEBUG: 2021-09-28 23:34:53,402:      pdf_renderer.py:  470: printSegment: Dans cet exemple, chaque sous-liste contient une catégorie d
+   DEBUG: 2021-09-28 23:34:53,402:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,403:      pdf_renderer.py:  470: printSegment: animal et le nombre d
+   DEBUG: 2021-09-28 23:34:53,403:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,403:      pdf_renderer.py:  470: printSegment: animaux pour chaque catégorie.
+   DEBUG: 2021-09-28 23:34:53,403:      pdf_renderer.py:  470: printSegment: Pour accéder à un élément de la liste, on utilise l
+   DEBUG: 2021-09-28 23:34:53,403:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,403:      pdf_renderer.py:  470: printSegment: indiçage habituel :
+   DEBUG: 2021-09-28 23:34:53,404:      pdf_renderer.py:  470: printSegment: >>> zoo[1]
+   DEBUG: 2021-09-28 23:34:53,404:      pdf_renderer.py:  470: printSegment: ['tigre', 2]
+   DEBUG: 2021-09-28 23:34:53,404:      pdf_renderer.py:  470: printSegment: Pour accéder à un élément de la sous-liste, on utilise un double indiçage :
+   DEBUG: 2021-09-28 23:34:53,404:      pdf_renderer.py:  470: printSegment: >>> zoo[1][0]
+   DEBUG: 2021-09-28 23:34:53,404:      pdf_renderer.py:  470: printSegment: 'tigre'
+   DEBUG: 2021-09-28 23:34:53,404:      pdf_renderer.py:  470: printSegment: >>> zoo[1][1]
+   DEBUG: 2021-09-28 23:34:53,405:      pdf_renderer.py:  470: printSegment: 2
+   DEBUG: 2021-09-28 23:34:53,405:      pdf_renderer.py:  470: printSegment: On verra un peu plus loin qu
+   DEBUG: 2021-09-28 23:34:53,405:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,405:      pdf_renderer.py:  470: printSegment: il existe en Python des dictionnaires qui sont également très pratiques pour stocker de l
+   DEBUG: 2021-09-28 23:34:53,405:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,405:      pdf_renderer.py:  470: printSegment: information structurée. On verra aussi qu
+   DEBUG: 2021-09-28 23:34:53,406:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,406:      pdf_renderer.py:  470: printSegment: il existe un module nommé 
+   DEBUG: 2021-09-28 23:34:53,406:      pdf_renderer.py:  470: printSegment: NumPy
+   DEBUG: 2021-09-28 23:34:53,407:      pdf_renderer.py:  470: printSegment:  qui permet de créer des listes ou des
+   DEBUG: 2021-09-28 23:34:53,407:      pdf_renderer.py:  470: printSegment: tableaux de nombres (vecteurs et matrices) et de les manipuler.
+   DEBUG: 2021-09-28 23:34:53,407:      pdf_renderer.py:  470: printSegment: Minimum, maximum et somme d
+   DEBUG: 2021-09-28 23:34:53,407:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,407:      pdf_renderer.py:  470: printSegment: une liste
+   DEBUG: 2021-09-28 23:34:53,408:      pdf_renderer.py:  470: printSegment: Les fonctions 
+   DEBUG: 2021-09-28 23:34:53,408:      pdf_renderer.py:  470: printSegment: min()
+   DEBUG: 2021-09-28 23:34:53,408:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2021-09-28 23:34:53,408:      pdf_renderer.py:  470: printSegment: max()
+   DEBUG: 2021-09-28 23:34:53,408:      pdf_renderer.py:  470: printSegment:  et 
+   DEBUG: 2021-09-28 23:34:53,409:      pdf_renderer.py:  470: printSegment: sum()
+   DEBUG: 2021-09-28 23:34:53,409:      pdf_renderer.py:  470: printSegment:  renvoient respectivement le minimum, le maximum et la somme d
+   DEBUG: 2021-09-28 23:34:53,409:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,409:      pdf_renderer.py:  470: printSegment: une liste
+   DEBUG: 2021-09-28 23:34:53,409:      pdf_renderer.py:  470: printSegment: passée en argument.
+   DEBUG: 2021-09-28 23:34:53,409:      pdf_renderer.py:  470: printSegment: >>> liste = list(range(10))
+   DEBUG: 2021-09-28 23:34:53,410:      pdf_renderer.py:  470: printSegment: >>> liste
+   DEBUG: 2021-09-28 23:34:53,410:      pdf_renderer.py:  470: printSegment: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+   DEBUG: 2021-09-28 23:34:53,410:      pdf_renderer.py:  470: printSegment: >>> sum(liste)
+   DEBUG: 2021-09-28 23:34:53,410:      pdf_renderer.py:  470: printSegment: 45
+   DEBUG: 2021-09-28 23:34:53,410:      pdf_renderer.py:  470: printSegment: >>> min(liste)
+   DEBUG: 2021-09-28 23:34:53,410:      pdf_renderer.py:  470: printSegment: 0
+   DEBUG: 2021-09-28 23:34:53,411:      pdf_renderer.py:  470: printSegment: >>> max(liste)
+   DEBUG: 2021-09-28 23:34:53,411:      pdf_renderer.py:  470: printSegment: 9
+   DEBUG: 2021-09-28 23:34:53,411:      pdf_renderer.py:  470: printSegment: Même si en théorie ces fonctions peuvent prendre en argument une liste de 
+   DEBUG: 2021-09-28 23:34:53,411:      pdf_renderer.py:  470: printSegment: strings
+   DEBUG: 2021-09-28 23:34:53,411:      pdf_renderer.py:  470: printSegment: , on les utilisera la plupart du
+   DEBUG: 2021-09-28 23:34:53,411:      pdf_renderer.py:  470: printSegment: temps avec des types numériques (liste d
+   DEBUG: 2021-09-28 23:34:53,412:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,412:      pdf_renderer.py:  470: printSegment: entiers et/ou de 
+   DEBUG: 2021-09-28 23:34:53,412:      pdf_renderer.py:  470: printSegment: floats
+   DEBUG: 2021-09-28 23:34:53,412:      pdf_renderer.py:  470: printSegment: ).
+   DEBUG: 2021-09-28 23:34:53,412:      pdf_renderer.py:  470: printSegment: Nous avions déjà croisé 
+   DEBUG: 2021-09-28 23:34:53,412:      pdf_renderer.py:  470: printSegment: min()
+   DEBUG: 2021-09-28 23:34:53,413:      pdf_renderer.py:  470: printSegment: , 
+   DEBUG: 2021-09-28 23:34:53,413:      pdf_renderer.py:  470: printSegment: max()
+   DEBUG: 2021-09-28 23:34:53,413:      pdf_renderer.py:  470: printSegment:  dans le chapitre 2 Variables. On avait vu que ces deux fonctions pouvaient
+   DEBUG: 2021-09-28 23:34:53,413:      pdf_renderer.py:  470: printSegment: prendre plusieurs arguments entiers et / ou 
+   DEBUG: 2021-09-28 23:34:53,413:      pdf_renderer.py:  470: printSegment: floats
+   DEBUG: 2021-09-28 23:34:53,413:      pdf_renderer.py:  470: printSegment: , par exemple :
+   DEBUG: 2021-09-28 23:34:53,414:      pdf_renderer.py:  470: printSegment: >>> min(3, 4)
+   DEBUG: 2021-09-28 23:34:53,414:      pdf_renderer.py:  470: printSegment: 3
+   DEBUG: 2021-09-28 23:34:53,414:      pdf_renderer.py:  470: printSegment: Attention toutefois à ne pas mélanger entiers et 
+   DEBUG: 2021-09-28 23:34:53,414:      pdf_renderer.py:  470: printSegment: floats
+   DEBUG: 2021-09-28 23:34:53,414:      pdf_renderer.py:  470: printSegment:  d
+   DEBUG: 2021-09-28 23:34:53,415:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,415:      pdf_renderer.py:  470: printSegment: une part avec une liste d
+   DEBUG: 2021-09-28 23:34:53,415:      pdf_renderer.py:  470: printSegment: '
+   DEBUG: 2021-09-28 23:34:53,415:      pdf_renderer.py:  470: printSegment: autre part, car cela renvoie une
+   DEBUG: 2021-09-28 23:34:53,415:      pdf_renderer.py:  470: printSegment: erreur :
+   DEBUG: 2021-09-28 23:34:53,415:      pdf_renderer.py:  470: printSegment: >>> min(liste, 3, 4)
+   DEBUG: 2021-09-28 23:34:53,416:      pdf_renderer.py:  470: printSegment: Traceback (most recent call last):
+   DEBUG: 2021-09-28 23:34:53,416:      pdf_renderer.py:  470: printSegment:   File "<stdin>", line 1, in <module>
+   DEBUG: 2021-09-28 23:34:53,416:      pdf_renderer.py:  470: printSegment: TypeError: '<' not supported between instances of 'int' and 'list'
+   DEBUG: 2021-09-28 23:34:53,416:      pdf_renderer.py:  470: printSegment: Soit on passe plusieurs entiers et/ou 
+   DEBUG: 2021-09-28 23:34:53,417:      pdf_renderer.py:  470: printSegment: floats
+   DEBUG: 2021-09-28 23:34:53,417:      pdf_renderer.py:  470: printSegment:  en argument, soit on passe une liste unique.
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 0, [1, 'Listes', 1, 68.0]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 1, [2, 'Définition', 1, 106.0]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 2, [2, 'Utilisation', 1, 367.6]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 3, [2, 'Opération sur les listes', 1, 689.2]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 4, [2, 'Indiçage négatif', 2, 572.8]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 5, [2, 'Tranches', 3, 278.8]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 6, [2, 'Fonction ', 4, 134.8]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 7, [2, 'Les fonctions ', 4, 270.40000000000003]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 8, [2, 'Listes de listes', 5, 70.0]
+   DEBUG: 2021-09-28 23:34:53,418:      pdf_renderer.py:   53: 9, [2, 'Minimum, maximum et somme d', 5, 409.6]
